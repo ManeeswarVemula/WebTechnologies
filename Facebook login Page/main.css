@@ -1,0 +1,158 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family:verdana;
+}
+*,
+*::after,
+*::before{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.container-fluid{
+	width:100%;
+}
+.container{
+	width:1050px;
+	margin:0px auto;
+}
+.row:after{
+	clear:both;
+	content:"";
+	display:block;
+}
+.bg{
+	height:100px;
+	background-color:#3b5998;
+}
+.logo h2{
+	color:#fff;
+	font-family:verdana;
+	font-size:40px;
+	margin-top:10px;
+}
+.logo,.email,.password,.bt{
+	float:left;
+}
+.logo{
+	width:50%;
+	
+}
+.email,.password{
+	width:20%;
+}
+.bt{
+	width:5%;
+	color:#fff;
+	background-color:#3b5998;
+	margin-top:20px;
+	border:0.2px solid #000;
+	height:20px;
+}
+
+.email p{
+	color:#fff;
+	font-family:verdana;
+	font-size:13px;
+	margin-bottom:5px;
+}
+.password p{
+	color:#fff;
+	font-family:verdana;
+	font-size:13px;
+	margin-bottom:5px;
+}
+#fa{
+	color:#9cabc5;
+	margin-top:5px;
+}
+.fb{
+	padding-top:20px;
+}
+.img1,.create{
+	width:50%;
+	float:left;
+}
+.img1 h3{
+	color:#0e385f;
+	font-family:verdana;
+	font-weight:600;
+	font-size:15px;
+	margin:30px 0px 20px 0px;
+}
+.create h2{
+	font-family:verdana;
+	font-size:28px;
+	color:#333333;
+}
+.create p{
+	color:#1d2144;
+	font-family:verdana;
+}
+span{
+	color:#365899;
+}
+.create h2{
+	margin:30px 0px 10px 0px;
+}
+.create #its{
+	margin-bottom:20px;
+}
+.input-fields input{
+	border-radius:5px 5px 5px 5px;
+	
+	margin:2px 5px 10px 5px;
+	padding:5px;
+	height:40px;
+}
+.mobile{
+	width:40%;
+	height:30%;
+}
+.paragraph{
+	font-size:12px;
+	color:#77779E;
+	margin-top:20px;
+	margin-bottom:25px;
+}
+#sub-btn{
+	font-size:18px;
+	color:#fff;
+	background-color:#669F52;
+	height:40px;
+	width:180px;
+	border-radius:8px 8px 8px 8px;
+	border:0.4px solid #000;
+	margin-bottom:20px;
+}
+
+#dob-que{
+	font-size:12px;
+	
+}
+select{
+	font-size:18px;
+	margin:20px 0px 20px 0px;
+}
+.bg2{
+		background-color:#E1E5EF;
+}
+#para{
+	font-size:12px;
+	color:blue;
+	line-height:1.5;
+	margin:5px 0px 5px 0px; 
+	word-spacing:13px;
+}
+.section3{ 
+	float:right;
+	margin-right:45px;
+}
+.section4{
+	margin-top:30px;
+}
+.pg span{
+	word-spacing:6px;
+	padding-left:15px;
+}
